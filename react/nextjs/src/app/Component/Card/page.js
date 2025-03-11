@@ -11,7 +11,7 @@ const Card = ({ title, description, emoji }) => {
           <p className='text-gray-300'>{description}</p>
         </div>
       </div>
-    )
+    )           
   }
 
 export default Card

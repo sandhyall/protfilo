@@ -54,7 +54,7 @@ const Navbar = () => {
           <Button as={Link} href='/Feature' className={`text-black hover:text-red-700 focus:outline-none transition-all duration-300 relative ${isMoonClicked ? 'text-white' : 'text-black'}`}>Features
             <span className="absolute bottom-0 left-0 w-0 h-1 bg-blue-600 transition-all duration-300 group-hover:w-full group-active:w-full group-focus:w-full"></span>
           </Button>
-          <Button as={Link} href='/Aboutme' className={`text-black hover:text-red-700 focus:outline-none transition-all duration-300 relative ${isMoonClicked ? 'text-white' : 'text-black'}`}>About Me
+          <Button as={Link} href='/About me' className={`text-black hover:text-red-700 focus:outline-none transition-all duration-300 relative ${isMoonClicked ? 'text-white' : 'text-black'}`}>About Me
             <span className="absolute bottom-0 left-0 w-0 h-1 bg-blue-600 transition-all duration-300 group-hover:w-full group-active:w-full group-focus:w-full"></span>
           </Button>
           <Button as={Link} href='/Project' className={`text-black hover:text-red-700 focus:outline-none transition-all duration-300 relative ${isMoonClicked ? 'text-white' : 'text-black'}`}>Projects
