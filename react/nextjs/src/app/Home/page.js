@@ -3,6 +3,8 @@ import Navbar from '../Component/Navbar/page'
 import Hero from '../Component/Hero/page' 
 import Feature from '../Feature/page'
 import Pageaboutus from '../Component/pageaboutus/page'
+import Pageproject from '../Component/Pageproject/page'
+import Contactus from '../Contact us/page'
 
 const Home=()=> {
   return (
@@ -11,7 +13,8 @@ const Home=()=> {
      <Hero/>
      <Feature/>
      <Pageaboutus/>
-     
+     <Pageproject/>
+     <Contactus/>
     </div>
   )
 }
